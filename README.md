@@ -33,3 +33,10 @@ Fine-tuned GPT-Neo on a lightweight dataset to:
 python3 -m venv llm-finetune-env
 source llm-finetune-env/bin/activate
 pip install torch torchvision torchaudio transformers datasets peft accelerate bitsandbytes
+
+### 2. Set up Python environment
+```
+
+python load_model_dataset.py
+python train_lora_finetune.py
+python test_finetuned_model.py
